@@ -1,5 +1,5 @@
 class Endpoints {
-  static const bool shouldLocalHost = true;
+  static const bool shouldLocalHost = false;
 
   static String get baseUrl =>
       shouldLocalHost ? localhostBaseUrl : serverHostUrl;
